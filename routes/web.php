@@ -21,10 +21,10 @@ use App\Http\Controllers\AboutController;
 use App\Http\Controllers\NewsController;
 
 Route::get('/',[HomeController::class,'index'])->name('home.index');
-Route::get('/', function () {return view('home');});
+Route::get('/', function () {return view('home');})->name('home.index');
 
 Route::get('/about',[AboutController::class,'index'])->name('about.index');
-Route::get('/about', function () {return view('about');});
+Route::get('/about', function () {return view('about');})->name('about.index');
 
 Route::get('/news',[NewsController::class,'index'])->name('news.index');
-Route::get('/news', function () {return view('news');});
+Route::get('/news', function () {return view('news');})->name('news.index');
