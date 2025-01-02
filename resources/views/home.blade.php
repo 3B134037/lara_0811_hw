@@ -34,9 +34,9 @@
             <div class="max-w-7xl mx-auto p-6 lg:p-8 "style="color: white;">
                 <a href = "{{ route('about.index')}}">About</a>
                     <a href = "{{ route('news.index')}}">News</a>
-                    <div class="logo">
-                        <h1>HOME</h1>
-                    </div>
+                        <div class="logo" style="text-align: center;">
+                            <h1>HOME</h1>
+                        </div>
 
                 <div class="mt-16">
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
