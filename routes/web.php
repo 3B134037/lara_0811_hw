@@ -25,3 +25,6 @@ Route::get('/', function () {return view('home');});
 
 Route::get('/about',[AboutController::class,'index'])->name('about.index');
 Route::get('/about', function () {return view('about');});
+
+Route::get('/news',[NewsController::class,'index'])->name('news.index');
+Route::get('/news', function () {return view('news');});
